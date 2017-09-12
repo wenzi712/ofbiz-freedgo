@@ -3692,8 +3692,8 @@ under the License.
             <key-map field-name="productPromoId"/>
             <entity-condition distinct="true">
                 <condition-list>
-                     <condition-expr field-name="promoType" operator="equals" value="PROMO_SPE_PRICE" entity-alias="PPO"/>
-                     <condition-expr field-name="requireCode" operator="equals" value="N" entity-alias="PPO"/>
+                    <condition-expr field-name="promoType" operator="equals" value="PROMO_SPE_PRICE" entity-alias="PPO"/>
+                    <condition-expr field-name="requireCode" operator="equals" value="N" entity-alias="PPO"/>
                 </condition-list>
             </entity-condition>
         </view-link>
@@ -3749,7 +3749,7 @@ under the License.
         </view-link>
     </view-entity>
 
-        <view-entity entity-name="ProductCouponPromo" package-name="org.ofbiz.product.promo">
+    <view-entity entity-name="ProductCouponPromo" package-name="org.ofbiz.product.promo">
         <member-entity entity-alias="PPO" entity-name="ProductPromo"></member-entity>
         <member-entity entity-alias="PPA" entity-name="ProductPromoAction"></member-entity>
         <alias-all entity-alias="PPO"/>
